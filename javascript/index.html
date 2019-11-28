@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+<script src="date.js">
+
+
+</script>
+<script>
+var age=20;
+console.log('Age ='+age);
+// to open developer tool 
+//f12,ctrl+shift+i,rightclick+inspect
+// console:
+// see logged Message
+// to see error MSG
+// run js code
+var name='Akhil';
+console.log(name);
+var bool=true;
+console.log(bool);
+var a=null;
+console.log(a);
+var b;
+console.log(b);
+
+
+</script>
+
+</head>
+<body>
+
+<script>
+    var fruit=['apple','mango','pineapple'];
+    console.log(fruit);
+    console.log(fruit[0]);
+    console.log(fruit.length);
+    fruit[3]='banana';
+    console.log(fruit);
+
+
+    var person={
+        name:'Akhil',
+        age:22,
+        gender:'male'
+        
+    }
+    console.log(person);
+    console.log(person.name);
+    console.log(person.age);
+    console.log(person.gender);
+    /*
+operators:
+===: strict operator
+==: comaprison opertor
+!=: not equal
+!==: strict not equal
+
+    */
+    console.log("===================================");
+    var a=10;
+    var str='10';
+    if(a==str){//using ==
+        console.log('equal');
+    }else{
+        console.log('not equal');
+    }
+    /*In javasccript whenever we use equal to operator comapre values
+    so that is why we use strict operator to comapre.
+    ex: first it will comapre the values. then it will comapre the data type.
+    10===10
+    num===string
+
+    same for not equal to
+    */
+
+    var a=10;
+    var str='10';
+    if(a===str){//using ===
+        console.log('equal');
+    }else{
+        console.log('not equal');
+    }
+
+    var b=10;
+    var str='string';
+    console.log(typeof(a));
+    console.log(typeof(str));
+
+   var yell=null;
+   var hell;
+    console.log(typeof(yell));
+    console.log(typeof(hell));
+
+
+   var a = 10;
+   console.log(a);
+    
+    
+     
+</script>
+<script src="/ass2.js"></script>
+    
+</body>
+</html>
